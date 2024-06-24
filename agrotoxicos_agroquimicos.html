@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrotóxicos y Agroquímicos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="images/logo.jpg">
+
+</head>
+<body>
+    <nav class="nav">
+        <a class="item" href="index.html">INICIO</a>
+        <a class="item" href="introduccion.html">INTRODUCCIÓN</a>
+        <a class="item" href="desarrollo.html">DESARROLLO</a>
+        <a class="item" href="agrotóxicos_agroquimicos.html">AGROTÓXICOS Y AGROQUÍMICOS</a>
+        <a class="item" href="glifosato.html">GLIFOSATO</a>
+        <a class="item" href="trabajo_rural.html">TRABAJO RURAL</a>
+        <a class="item" href="ciudades_afectadas.html">CIUDADES AFECTADAS</a>
+        <a class="item" href="agroecología.html">AGROECOLOGÍA</a>
+        <a class="item" href="contacto.html">CONTACTO</a>
+    </nav>
+    <h3>Agrotóxicos</h3>
+    <p>Los agrotóxicos son cualquier sustancia o mezcla de sustancias naturales o sintéticas utilizadas para prevenir, eliminar y/o controlar cualquier plaga, enfermedad, maleza en la actividad agrícola. Se las conoce como plaguicidas o pesticidas, fitosanitarios o protección de cultivos, conformados por fungicidas, herbicidas, insecticidas, acaricidas, etc.</p>
+    <p>Las consecuencias sanitarias y ambientales de este uso se relacionan con al menos tres grandes problemas: la intoxicación en seres humanos, la contaminación del suelo y el agua y los desechos de los envases vacíos y remanentes.</p>
+    <ul>
+        <li>Toxicidad aguda alta y toxicidad crónica, con efectos a largo plazo (desarrollo del cáncer, mutaciones, enfermedades neurodegenerativas, afecciones reproductivas o endocrinas).</li>
+        <li>Ingredientes activos de alta incidencia con efectos adversos irreversibles o severos para la salud del medio ambiente.</li>
+        <li>Toxicidad moral por inhalación.</li>
+        <li>Alteraciones hormonales.</li>
+        <li>Muy persistentes en el agua, en sedimentos y en el suelo.</li>
+        <li>Alta capacidad de acumularse en los organismos.</li>
+        <li>Alta toxicidad para organismos acuáticos (peces, crustáceos, algas).</li>
+        <li>Alta toxicidad para abejas, aves y otros organismos.</li>
+    </ul>
+    <figure class="imagenes">
+        <img src="images/venenos-toxicos.jpg" alt="Hombres fumigando">
+        <figcaption>Fumigación.</figcaption>
+    </figure>
+    <h3>Agroquímicos</h3>
+    <h5>Pesticidas hallados en alimentos vendidos en supermercados.</h5>
+    <p>En el año 2015 la lechuga encabezó la lista de cultivos con mayores problemas, con muestras excedidas en un 47% seguidas por el apio 21%, la espinaca 15%, el pimiento 7% y la acelga 6%. En este sentido, destacó que los principales principios activos encontrados fueron Clorpirifos, Profenofos, Metamidofos, Dimetoato, Carbofuran, entre otros.</p>
+
+    <form id="formulario">
+        <div class="form_group">
+            <label for="nombres">Nombres</label>
+            <input id="nombres" required="" type="text">
+        </div>
+        <div class="form_group">
+            <label for="porcentaje">Porcentaje</label>
+            <input type="number" required="" id="porcentaje">
+        </div>
+        <div class="form_group"></div>
+        <button type="submit" id="agregar">Agregar</button>
+        <button type="submit" id="generarAutomaticamente">Generar automaticamente</button>
+    </form>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <td>Nombres</td>
+                <td>Porcentaje</td>
+                <td>Acciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zanahoria</td>
+                <td>11%</td>
+                <td>
+                    <button id="eliminar">Eliminar</button> 
+                </td>
+            </tr>
+            <tr>
+                <td>Apio</td>
+                <td>3%</td>
+                <td>
+                    <button id="eliminar">Eliminar</button> 
+                </td>
+            </tr>
+            <tr>
+                <td>Frutilla</td>
+                <td>23%</td>
+               <td> 
+                    <button id="eliminar">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td>9%</td>
+                <td> 
+                    <button id="eliminar">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="vaciar_tabla">Vaciar tabla</button>
+ 
+    <p>El Ministerio de Salud de la Nación ha sostenido que se ha mostrado la permanencia del Clorpirifos como contaminante en el interior de los hogares a partir de su uso domiciliario, lo cual conforma un perfil de riesgo de daño grave que llevó a varios países a iniciar procesos para la discontinuidad en su uso como agente plaguicida domisanitario desde el año 2000, y en virtud de ello, la misma cartera ministerial de salud nacional decidió prohibirlo como domisanitario en la Argentina en el año 2009.</p>
+    
+    <table class="table-rural">
+        <tr>
+            <td>S01:00075551/2011</td>
+            <td>Lechuga</td>
+            <td>Clorpirifos</td>
+            <td>Desvío de uso</td>
+            <td>No existe riesgo agudo ni crónico</td>
+            <td>Falta de grado leve solicita sanción económica</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    

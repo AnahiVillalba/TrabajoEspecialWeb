@@ -1,0 +1,128 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    line-height: 0.0;
+    font-size: 40px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    font-size: 25px;
+    text-decoration: underline;
+}
+h6{
+    font-family: oblique;
+    font-size: 20px;
+}
+body{
+    background-color: #5fd932;
+}
+.nav{
+    text-align: center;
+    display: flex;
+    background-color: #163a08;
+    border-bottom: 5px green;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+nav a:hover{
+    color: black;
+    background-color: #5fd932;
+}
+.item{
+    list-style: none;
+    margin: 0px 5px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px;
+}
+p{
+    font-family: oblique;
+    font-size: 25px;
+}
+li{
+    font-family: oblique;
+    font-size: 25px;
+}
+th{
+    background-color: #163a08;
+    color: white;
+    width: 300px;
+}
+tbody{
+    color: black;
+}
+.table-trabajo td,tr{
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.table-rural td,tr{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 200px;
+    background-color: white;
+}
+.formRegistrar{
+    background-color:#163a08;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    box-shadow: #2f6b17;
+}
+.formRegistrar h2{
+    font-size: 30px;
+    color: #7be754;
+    margin-bottom: 35px;
+}
+input{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #7be754;
+    margin-bottom: 30px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+::placeholder{
+    color: #5fd932;
+}
+.btn{
+    background-color: #5fd932;
+    border: 2px solid #5fd932;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #7be754;
+    border: 2px solid #7be754;
+}
+.imagenes{
+    font-size: 20px;
+    text-align: center;
+
+}
+@media only screen and (min-width: 660px){
+}
+.form_container{
+    color: white;
+    background-color: black;
+}
+td{
+    font-size: 20px;
+    background-color: #2f6b17;
+    color: black;
+    border: 1px solid;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="images/logo.jpg">
+</head>
+<body> 
+    <nav class="nav">
+        <a class="item" href="index.html">INICIO</a>
+        <a class="item" href="introduccion.html">INTRODUCCIÓN</a>
+        <a class="item" href="desarrollo.html">DESARROLLO</a>
+        <a class="item" href="agrotoxicos_agroquimicos.html">AGROTÓXICOS y AGROQUIMICOS</a>
+        <a class="item" href="glifosato.html">GLIFOSATO</a>
+        <a class="item" href="trabajo_rural.html">TRABAJO RURAL</a>
+        <a class="item" href="ciudades_afectadas.html">CIUDADES AFECTADAS</a>
+        <a class="item" href="agroecología.html">AGROECOLOGÍA</a>
+        <a class="item" href="contacto.html">CONTACTO</a>
+    </nav>
+    <h2>Contactanos</h2>
+    <h6>Dejanos tus dudas, inquietudes o sugerencias a continuación y te respondemos a la brevedad.</h6>
+    <form id="formulario"  class="formRegistrar">
+        <h2>Registrarse</h2>
+    <div>
+        <input type="nombre" name="nombre" placeholder="NOMBRE" required>
+    </div>
+    <div>
+        <input type="apellido" name="apellido" placeholder="APELLIDO" required>
+    </div>
+    <div>
+        <input type="email" name="email" placeholder="EMAIL" required>
+    </div>
+    <div>
+        <input type="consulta" name="¿Cual es tu consulta?" placeholder="¿Cuál es tu consulta?" required>
+    </div>
+    <div>
+        <p id="numCaptcha"></p>
+        <input id="inputCaptcha" type="text" placeholder="Validar Captcha" required>
+    </div> 
+        <input type="submit" class="btn" value="Enviar formulario">
+  </form>
+  <p id="aviso"></p>
+  <button id="validarCaptcha">validar</button>
+    <script text="javascript" src="js/main.js"></script>
+</body>
+</html>
